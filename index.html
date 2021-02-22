@@ -1,0 +1,258 @@
+<html>
+
+    <head>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+        
+        <link href="bootstrap-4.6.0-dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Script -->
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Librería</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Recientes">Recientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Categoria">Categorías</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="InicioSesion" data-bs-toggle="dropdown" aria-expanded="false">
+                        Inicia Sesión
+                    </button>
+                                <ul class="dropdown-menu" aria-labelledby="InicioSesion">
+                                    <li><a class="dropdown-item" href="#">Usuario</a></li>
+                                    <li><a class="dropdown-item" href="#">Contraseña</a></li>
+                                </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+
+        <div id="Presentacion" class="presentacion">
+             <div class="titulo">
+            <h1 class="display-1">La Librería</h1>
+            <p class="lead">Miles de libros al alcance de un clic</p>
+            </div>
+        </div>
+        <br>
+        
+        <div id="Recientes" class="recientes">
+         <h1 class="display-4">Agregados recientemente</h1>
+        <hr class="rounded-black">
+            <br>
+            <div class="row text-center">
+                 
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/1.jpg" alt="">
+                        <div class="overlay">
+                            <h2>El Club de La Pelea</h2>
+                            <p>
+                                Autor: Chuck Palahniuk
+                                <br>
+                                Año: 1996
+                                <br>
+                                Categoría: Novela
+                                <br>
+                                <button type="button" class="btn btn-success">Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/2.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Fahrenheit 451</h2>
+                            <p>
+                                Autor: Ray Bradbury
+                                <br>
+                                Año: 1953
+                                <br>
+                                Categoría: Ciencia Ficción
+                                <br>
+                                <button type="button" class="btn btn-success">Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/3.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Hyrule Historia</h2>
+                            <p>
+                                Autor: Shigeru Miyamoto
+                                <br>
+                                Año: 2011
+                                <br>
+                                Categoría: Novela
+                                <br>
+                                <button type="button" class="btn btn-success">Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+            
+            
+        </div>
+        </div>
+        <br>
+        <br>
+        
+        
+        <div id="Categoria" class="categoria">
+            <br>
+            <h1 class="display-4">Categorías</h1>
+            <hr class="rounded-white">  
+            <center>
+                <div class="btn-group" role="group" aria-label="botones">
+                    <button type="button" class="btn btn-light">Misterio</button>
+                    <button type="button" class="btn btn-dark">Novela</button>
+                    <button type="button" class="btn btn-light">Ciencia Ficción</button>
+                    <button type="button" class="btn btn-light">Romance</button>
+                    <button type="button" class="btn btn-light">Filosofía</button>
+                </div>
+            </center>
+            <br>
+            
+            <div class="row text-center">
+                 
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/1.jpg" alt="">
+                        <div class="overlay">
+                            <h2>El Club de La Pelea</h2>
+                            <p>
+                                Autor: Chuck Palahniuk
+                                <br>
+                                Año: 1996
+                                <br>
+                                Categoría: Novela
+                                <br>
+                                <button type="button" class="btn btn-success">Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/5.jpg" alt="">
+                        <div class="overlay">
+                            <h2>La Llamada de Chtulhu</h2>
+                            <p>
+                                Autor: H.P. Lovecraft
+                                <br>
+                                Año: 1926
+                                <br>
+                                Categoría: Novela, Misterio
+                                <br>
+                                <button type="button" class="btn btn-danger">No Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/7.jpg" alt="">
+                        <div class="overlay">
+                            <h2>El Silencio de los Corderos</h2>
+                            <p>
+                                Autor: Thomas Harris
+                                <br>
+                                Año: 1988
+                                <br>
+                                Categoría: Novela, Misterio
+                                <br>
+                                <button type="button" class="btn btn-success">Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                 
+                     <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/3.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Hyrule Historia</h2>
+                            <p>
+                                Autor: Shigeru Miyamoto
+                                <br>
+                                Año: 2011
+                                <br>
+                                Categoría: Novela
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-success">Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/6.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Rebelión en la Granja</h2>
+                            <p>
+                                Autor: George Orwell
+                                <br>
+                                Año: 1945
+                                <br>
+                                Categoría: Novela
+                                <br>
+                                <button type="button" class="btn btn-danger"> No Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="hovereffect">
+                        <img class="img-responsive" src="css/8.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Watchmen</h2>
+                            <p>
+                                Autor: Alan Moore
+                                <br>
+                                Año: 1986
+                                <br>
+                                Categoría: Novela, Ciencia Ficción
+                                <br>
+                                <button type="button" class="btn btn-danger">No Disponible</button>
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <br>
+            <br>
+           
+            
+        </div>
+    </body>
+
+</html>
